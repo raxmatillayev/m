@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <title>Sen Uchun 💖</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <h1>Salom, Marjona! 💌</h1>
+  <audio controls autoplay loop>
+    <source src="/static/music.mp3" type="audio/mp3">
+    Sizning brauzeringiz musiqani qo‘llamaydi.
+  </audio>
+  <form action="/send" method="POST">
+    <input type="text" name="name" placeholder="Ismingiz" required><br>
+    <textarea name="message" placeholder="Sevgi xabaringiz..." required></textarea><br>
+    <button type="submit">Yuborish</button>
+  </form>
+  <br>
+  <a href="/messages"></a>
+  <a href="/gallery"></a>
+  <a href="/marjona"></a>
+  <a href="/secret"></a>
+  <div class="hearts-container"></div>
+  <script src="/static/hearts.js"></script>
+</body>
+</html>

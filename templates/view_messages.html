@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head><meta charset="UTF-8"><title>📜 Xabarlar</title>
+<link rel="stylesheet" href="/static/style.css"></head>
+<body>
+  <h1>💌 Yuborilgan xabarlar</h1>
+  <ul>{% for msg in messages %}<li>{{ msg }}</li>{% endfor %}</ul>
+  <a href="/">🔙 Ortga</a>
+  <div class="hearts-container"></div>
+  <script src="/static/hearts.js"></script>
+</body>
+</html>
